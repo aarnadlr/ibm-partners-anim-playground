@@ -1,0 +1,110 @@
+/*CSS RESET*/
+* {
+/*  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  font-weight: normal;*/
+}
+
+/* html, body{ */
+	/*font-family: 'Inconsolata', monospace;*/
+  /*font-weight: normal;*/
+  /*color: gray;*/
+  /*background-color: #061633;*/
+  /*background-color: pink;*/
+  /*margin: 40px;*/
+/* } */
+
+
+body {
+  /* background: #c3c3c3;   */
+  /* background: -webkit-linear-gradient(to bottom right, #ff9068, #fd746c); */
+  /* background: linear-gradient(to bottom right, #ff9068, #fd746c);   */
+
+  /* overflow: hidden;
+  text-align: center; */
+}
+
+body{
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center; */
+  /* height: 100%; */
+  /* width: 100%; */
+  /* margin: 30px 0; */
+
+  width:100%;
+  height:100vh;
+  padding: 0;
+}
+
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 25px; */
+}
+
+.phoneRect{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* SKETCH FILE LIGHT-BLUE GRADIENT */
+  /* background: linear-gradient(to bottom right, #EDFFEE, #3096D1);  */
+  /* background: -webkit-linear-gradient(to bottom right, #EDFFEE, #3096D1);   */
+  /* background: blue;   */
+
+  /* IBM OFFICIAL BLUE: */
+  /* background: #1050d6;   */
+  /* IBM OFFICIAL **BLUE 70**: */
+  background: #104fd5;
+  padding:2rem;
+  /* background: rgb(237, 237, 237);   */
+
+  /* width: 550px; */
+  /* width: 60%; */
+  /* height: 350px; */
+  /* height: 50%; */
+}
+
+svg path{
+  /* LIGHT CYAN: */
+  /* fill:rgb(175, 255, 255); */
+  fill: white;
+}
+
+.animRect{
+  width: 490px;
+  
+  /* margin: 50px; */
+  /* margin-bottom: 50px; */
+}
+
+#animationWindow {
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+
+
+
+/*IMPORTANT FOR FULLSCREEN/FULL-HEIGHT!!*/
+/*html {
+  height: 100%;
+}
+
+body{
+    min-height: 100%;
+}*/

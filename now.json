@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "ibm-partners-anim-playground",
+  "alias": "ibm-partners.now.sh",
+  "builds": [
+    { "src": "index.html", "use": "@now/html-minifier" },
+    { "src": "assets/css/styles.css", "use": "@now/html-minifier" }
+  ]
+}
